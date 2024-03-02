@@ -142,6 +142,7 @@ conts {
 
 .btn-red-sm {
     background-color: #e50914;
+    padding: 9px 15px 8px 15px;
     color: white;
     cursor: pointer;
     transition: all 0.7s ease-in-out;
