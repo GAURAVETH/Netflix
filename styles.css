@@ -318,6 +318,18 @@ svg {
         max-width: 90vw;
     }
 
+    .cont> :first-child {
+        font-size: 32px;
+    }
+
+    .cont> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .cont> :nth-child(3) {
+        font-size: 18px;
+    }
+
     .enjoy {
         flex-wrap: wrap;
     }
