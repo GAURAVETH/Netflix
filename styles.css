@@ -50,7 +50,7 @@ nav button {
 }
 
 .cont,
-conts {
+.conts {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     height: calc(100% - 70px);
     display: flex;
