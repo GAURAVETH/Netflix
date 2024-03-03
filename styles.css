@@ -38,10 +38,11 @@ nav {
 }
 
 nav img {
-    width: 120px;
+    width: 150px;
     position: relative;
     z-index: 10;
 }
+
 
 nav button {
     position: relative;
@@ -60,7 +61,9 @@ nav button {
     position: relative;
     gap: 20px;
     padding: 0 35px;
+    text-align: center;
 }
+
 .conts{
     font-size: 20px;
 }
@@ -142,7 +145,6 @@ nav button {
 
 .btn-red-sm {
     background-color: #e50914;
-    padding: 9px 15px 8px 15px;
     color: white;
     cursor: pointer;
     transition: all 0.7s ease-in-out;
@@ -314,9 +316,12 @@ svg {
     margin: 10px 0;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
     nav {
         max-width: 90vw;
+    }
+    nav img {
+        width: 120px;
     }
 
     .cont> :first-child {
@@ -347,9 +352,11 @@ svg {
         font-size: 18px;
     }
 
-    .main input {
+    .main input,
+    .conts input {
         flex-direction: column;
         padding: 11px 11px 11px 13px;
+        width: 50vw;
     }
 
     .emj-img img,
@@ -407,7 +414,7 @@ svg {
     .footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
+        gap: 5px;
     }
 
     .call {
